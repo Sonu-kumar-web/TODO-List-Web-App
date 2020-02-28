@@ -1,0 +1,175 @@
+body {
+    background-color: #808080;
+    color: rgb(61, 60, 60);
+    background: -webkit-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -moz-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -ms-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -o-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+}
+
+header {
+    text-align: center;
+}
+
+header hr {
+    margin-top: -1.3vh;
+}
+
+header h1 {
+    padding-top: 2vh;
+}
+
+#content {
+    /* background-color: white; */
+    width: 60%;
+    margin-left: 18vw;
+}
+
+/* .description{
+    margin-top: -2vh;
+} */
+#take-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: -10px;
+    font-size: 2.5vh;
+}
+.container {
+    background-color: white;
+    margin-top: 1px;
+    height: 10vh;
+}
+
+.row-2 {
+    width: 10vw;
+    display: inline-block;
+}
+.cate{
+    height: 10vh;
+    width: 29.78vw;
+    margin-top: -0.5px;
+}
+.date{
+    margin-left: -31.19vw;
+    height: 10vh;
+    width: 30.08vw;
+    margin-top: -0.5px;
+    /* background-color: aqua; */
+}
+#category{
+    width: 28vw;
+    height: 7vh;
+    margin-top: -6vh; 
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+#due_date {
+    width: 28vw;
+    height: 7vh;
+    margin-top: -6vh;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 3.5vh;
+    width: 15vw;
+    height: 8vh;
+    font-size: large;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(71, 71, 71);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: rgb(22, 21, 21)}
+
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button2{
+    width: auto;
+    background-color: rgb(199, 56, 56);
+}
+
+.button2:hover{
+    background-color: rgb(136, 17, 17);
+}
+.button2:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.icon {
+    margin-right: 1vw;
+}
+
+.list-container {
+    list-style: none;
+    padding: 0px;
+}
+
+.new-items {
+    height: auto;
+}
+.cal-icon{
+    margin-left: 2vw;
+    padding: 0%;
+    display: flex;
+    display: inline-block;
+}
+.todo-add{
+    height: auto;
+    width: 45vw;
+    /* background-color:cyan; */
+    margin-top: -2vh;
+    display: flex;
+    display: inline-block;
+}
+.category-add{
+    height: 5.5vh;
+    width: 7vw;
+    background-color:green;
+    color: white;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-right: -50px;
+}
+.hov:hover{
+    background-color: #e2dede;
+}
+.category_col_personal{
+    background-color: rgb(167, 18, 18);
+}
+.category_col_school{
+    background-color:rgb(231, 71, 231);
+}
+.category_col_work{
+    background-color: blueviolet;
+}
+.category_col_cleaning{
+    background-color: springgreen;
+}
+.category_col_other{
+    background-color: chartreuse;
+}
