@@ -5,7 +5,7 @@ const db=require('./config/mongoose');
 const List=require('./models/list');
 
 const app=express();
-const port=8000;
+const port=process.env.PORT || 8000 ;
 var due_date=new Date();
 const path=require('path'); // setting the path template engine
 
